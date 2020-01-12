@@ -12,10 +12,16 @@ def line (katz_deli)
   end
 end 
 
+
+
+
 def take_a_number (katz_deli, name)
   puts "Welcome, #{name}. You are number "+ (katz_deli.length + 1).to_s + " in line."
   katz_deli << name
 end
+
+
+
 
 def now_serving (katz_deli)
   if katz_deli.length != 0 
