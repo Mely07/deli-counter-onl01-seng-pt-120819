@@ -3,9 +3,9 @@ def line (katz_deli)
     puts "The line is currently empty."
   else 
     answer = "The line is currently:"
-    counter = 1
+    counter = 0
     while counter < katz_deli.length
-      answer << " #{counter}. " + katz_deli[counter]
+      answer << " #{counter + 1}. " + katz_deli[counter]
       counter += 1
     end
     puts answer
